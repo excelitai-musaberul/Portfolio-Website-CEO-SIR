@@ -11,388 +11,20 @@
         content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Blog - Shahid Mahmum</title>
 
-    <style type="text/css">
-        img.wp-smiley,
-        img.emoji {
-            display: inline !important;
-            border: none !important;
-            box-shadow: none !important;
-            height: 1em !important;
-            width: 1em !important;
-            margin: 0 .07em !important;
-            vertical-align: -0.1em !important;
-            background: none !important;
-            padding: 0 !important;
-        }
-    </style>
+    
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap&amp;ver=1625292516" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap&amp;ver=1625292516"
+        media="print" onload="this.media='all'">
 
-
-    <style type="text/css">
-        .recentcomments a {
-            display: inline !important;
-            padding: 0 !important;
-            margin: 0 !important;
-        }
-    </style>
-    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-    <meta name="generator"
-        content="Powered by Slider Revolution 6.4.11 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-    <script type="text/javascript">function setREVStartSize(e) {
-            //window.requestAnimationFrame(function() {				 
-            window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
-            window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
-            try {
-                var pw = document.getElementById(e.c).parentNode.offsetWidth,
-                    newh;
-                pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
-                e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
-                e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
-                e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
-                e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
-                e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
-                e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
-                e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
-                if (e.layout === "fullscreen" || e.l === "fullscreen")
-                    newh = Math.max(e.mh, window.RSIH);
-                else {
-                    e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
-                    for (var i in e.rl) if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
-                    e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
-                    e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
-                    for (var i in e.rl) if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
-
-                    var nl = new Array(e.rl.length),
-                        ix = 0,
-                        sl;
-                    e.tabw = e.tabhide >= pw ? 0 : e.tabw;
-                    e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
-                    e.tabh = e.tabhide >= pw ? 0 : e.tabh;
-                    e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
-                    for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
-                    sl = nl[0];
-                    for (var i in nl) if (sl > nl[i] && nl[i] > 0) { sl = nl[i]; ix = i; }
-                    var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
-                    newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
-                }
-                if (window.rs_init_css === undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
-                document.getElementById(e.c).height = newh + "px";
-                window.rs_init_css.innerHTML += "#" + e.c + "_wrapper { height: " + newh + "px }";
-            } catch (e) {
-                console.log("Failure at Presize of Slider:" + e)
-            }
-            //});
-        };</script>
-    <style id="zonar-dynamic-css" title="dynamic-css" class="redux-options-output">
-        body {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        p,
-        .main-about-text-area {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .loading-text-container {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .btn,
-        .vc-section button,
-        .custom-form button,
-        .vc-section input[type=submit] {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .start-btn {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .page-subtitle {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .menu-button-text,
-        .share-btn span {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .ns-text-logo {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .sliding-menu a {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .sliding-menu a:hover {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .current-menu-parent>a,
-        .current-menu-item>a {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .header-contacts li,
-        .contacts-btn {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .page-scroll-nav_wrap li a,
-        .fixed-bottom-panel .gallery-filters a,
-        .pagination a {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .half-hero-wrap h1,
-        .hhw-vis.half-hero-wrap h1 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .half-hero-wrap h4 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .grid-carousel-title h3,
-        .grid-carousel-title h3 a {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .grid-carousel-title h4 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .hhw_header {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .hero-decor-numb {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .hero-facts-wrap .inline-facts h6 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .hero-facts-wrap .num {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .hero_promo-title h4 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .hero_promo-title p {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .fixed-column-wrap_title h2 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .fixed-column-wrap_title p {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .scroll-notifer {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .contact-details-title h2 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .contact-details ul li span {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .contact-details ul li,
-        .contact-details ul li a {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .blog-btn {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .blog-btn-filter ul li a {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .post-det h3,
-        .post-det h3 a {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .post-header span,
-        .post-header a {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .post-link {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .section-title h3 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .section-title p {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .inline-facts-wrap h6 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .inline-facts-wrap .num {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .team-info h3 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .team-info h4 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .team-box p {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .testimonilas-text h3 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .testimonilas-text p {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .custom-skillbar-title span {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .skill-bar-percent {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .piechart-holder h4 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .main-about h2 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .process-details h4 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .show-phdc span {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .pdcw_list li {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .srv-link-text h4 {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .accordion a.toggle {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .accordion-inner,
-        .accordion-inner p {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .project-details ul li,
-        .project-details ul:after {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-
-        .pr-subtitle {
-            font-family: Ubuntu;
-            font-display: swap;
-        }
-    </style>
-    <style type="text/css" class="zonar-custom-dynamic-css">
-
-    </style>
-
-
-    <noscript>
-        <style>
-            .wpb_animate_when_almost_visible {
-                opacity: 1;
-            }
-        </style>
-    </noscript>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap&amp;ver=1625292516" />
 
     <!-- -------------------Custom CSS-------------------- -->
     <link rel="stylesheet" href="./assets/css/pluginsc8d8.css">
     <link rel="stylesheet" href="./assets/css/stylec8d8.css">
     <link rel="stylesheet" href="./assets/css/colorc8d8.css">
     <link rel="stylesheet" href="./assets/css/js_composer.min31dc.css">
+    <link rel="stylesheet" href="./assets/css/headstyles.css">
 </head>
 
 <body
@@ -530,8 +162,7 @@
                 <div class="fixed-column-wrap">
                     <!--fixed-column-wrap-content-->
                     <div class="fixed-column-wrap-content">
-                        <div class="bg"
-                            data-bg="./assets/images/Shahid-Mahmum-XEO-e1625372828911.png">
+                        <div class="bg" data-bg="./assets/images/Shahid-Mahmum-XEO-e1625372828911.png">
                         </div>
                         <div class="overlay"></div>
                         <div class="progress-bar-wrap bot-element">
@@ -573,11 +204,11 @@
                                     <div class="tag-filter blog-btn-filter">
                                         <div class="blog-btn">Tags <i class="fa fa-tags" aria-hidden="true"></i></div>
                                         <ul>
-                                            <li><a href="../tag/comercial/index.html">Comercial</a></li>
-                                            <li><a href="../tag/gallery/index.html">Gallery</a></li>
-                                            <li><a href="../tag/nature/index.html">Nature</a></li>
-                                            <li><a href="../tag/people/index.html">People</a></li>
-                                            <li><a href="../tag/travel/index.html">Travel</a></li>
+                                            <li><a href="#">Comercial</a></li>
+                                            <li><a href="#">Gallery</a></li>
+                                            <li><a href="#">Nature</a></li>
+                                            <li><a href="#">People</a></li>
+                                            <li><a href="#">Travel</a></li>
                                         </ul>
                                     </div>
                                     <!-- filter tag end  -->
@@ -586,12 +217,12 @@
                                         <div class="blog-btn">Categories <i class="fa fa-list-ul"
                                                 aria-hidden="true"></i></div>
                                         <ul>
-                                            <li><a href="../category/comercial/index.html">Comercial</a></li>
-                                            <li><a href="../category/gallery/index.html">Gallery</a></li>
-                                            <li><a href="../category/nature/index.html">Nature</a></li>
-                                            <li><a href="../category/people/index.html">People</a></li>
-                                            <li><a href="../category/travel/index.html">Travel</a></li>
-                                            <li><a href="../category/uncategorized/index.html">Uncategorized</a></li>
+                                            <li><a href="#">Comercial</a></li>
+                                            <li><a href="#">Gallery</a></li>
+                                            <li><a href="#">Nature</a></li>
+                                            <li><a href="#">People</a></li>
+                                            <li><a href="#">Travel</a></li>
+                                            <li><a href="#">Uncategorized</a></li>
                                         </ul>
                                     </div>
                                     <!-- filter category end  -->
@@ -627,8 +258,7 @@
                                                 class="post-202 post type-post status-publish format-standard has-post-thumbnail hentry category-comercial category-gallery tag-comercial tag-gallery tag-people">
                                                 <div class="grid-post-media fl-wrap">
                                                     <a href="../2020/11/05/delenit-interesset-2/index.html"
-                                                        class="ajax"><img
-                                                            src="./assets/images/IMG_2hkjh.png"
+                                                        class="ajax"><img src="./assets/images/IMG_2hkjh.png"
                                                             alt="Tour Lover"></a>
                                                     <div class="post-det-num">02.</div>
                                                 </div>
@@ -835,6 +465,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- ------------------ Custom JS -------------------- -->
+    <script src="./assets/js/req-animate.js"></script>
     <script src="./assets/js/plugins5152.js"></script>
     <script src="./assets/js/scripts5152.js"></script>
     <script src="./assets/js/swiper.min5152.js"></script>

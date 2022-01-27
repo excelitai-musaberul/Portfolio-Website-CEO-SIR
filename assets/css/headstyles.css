@@ -1,0 +1,493 @@
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+
+#start-resizable-editor-section {
+    display: none
+}
+
+.wp-block-audio figcaption {
+    color: #555;
+    font-size: 13px;
+    text-align: center
+}
+
+.is-dark-theme .wp-block-audio figcaption {
+    color: hsla(0, 0%, 100%, .65)
+}
+
+.wp-block-code {
+    font-family: Menlo, Consolas, monaco, monospace;
+    color: #1e1e1e;
+    padding: .8em 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px
+}
+
+.wp-block-embed figcaption {
+    color: #555;
+    font-size: 13px;
+    text-align: center
+}
+
+.is-dark-theme .wp-block-embed figcaption {
+    color: hsla(0, 0%, 100%, .65)
+}
+
+.blocks-gallery-caption {
+    color: #555;
+    font-size: 13px;
+    text-align: center
+}
+
+.is-dark-theme .blocks-gallery-caption {
+    color: hsla(0, 0%, 100%, .65)
+}
+
+.wp-block-image figcaption {
+    color: #555;
+    font-size: 13px;
+    text-align: center
+}
+
+.is-dark-theme .wp-block-image figcaption {
+    color: hsla(0, 0%, 100%, .65)
+}
+
+.wp-block-pullquote {
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    margin-bottom: 1.75em;
+    color: currentColor
+}
+
+.wp-block-pullquote__citation,
+.wp-block-pullquote cite,
+.wp-block-pullquote footer {
+    color: currentColor;
+    text-transform: uppercase;
+    font-size: .8125em;
+    font-style: normal
+}
+
+.wp-block-quote {
+    border-left: .25em solid;
+    margin: 0 0 1.75em;
+    padding-left: 1em
+}
+
+.wp-block-quote cite,
+.wp-block-quote footer {
+    color: currentColor;
+    font-size: .8125em;
+    position: relative;
+    font-style: normal
+}
+
+.wp-block-quote.has-text-align-right {
+    border-left: none;
+    border-right: .25em solid;
+    padding-left: 0;
+    padding-right: 1em
+}
+
+.wp-block-quote.has-text-align-center {
+    border: none;
+    padding-left: 0
+}
+
+.wp-block-quote.is-large,
+.wp-block-quote.is-style-large {
+    border: none
+}
+
+.wp-block-search .wp-block-search__label {
+    font-weight: 700
+}
+
+.wp-block-group.has-background {
+    padding: 1.25em 2.375em;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.wp-block-separator {
+    border: none;
+    border-bottom: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .4
+}
+
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+    width: 100px
+}
+
+.wp-block-separator.has-background:not(.is-style-dots) {
+    border-bottom: none;
+    height: 1px
+}
+
+.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+    height: 2px
+}
+
+.wp-block-table thead {
+    border-bottom: 3px solid
+}
+
+.wp-block-table tfoot {
+    border-top: 3px solid
+}
+
+.wp-block-table td,
+.wp-block-table th {
+    padding: .5em;
+    border: 1px solid;
+    word-break: normal
+}
+
+.wp-block-table figcaption {
+    color: #555;
+    font-size: 13px;
+    text-align: center
+}
+
+.is-dark-theme .wp-block-table figcaption {
+    color: hsla(0, 0%, 100%, .65)
+}
+
+.wp-block-video figcaption {
+    color: #555;
+    font-size: 13px;
+    text-align: center
+}
+
+.is-dark-theme .wp-block-video figcaption {
+    color: hsla(0, 0%, 100%, .65)
+}
+
+.wp-block-template-part.has-background {
+    padding: 1.25em 2.375em;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+#end-resizable-editor-section {
+    display: none
+}
+
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+
+
+body {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+p,
+.main-about-text-area {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.loading-text-container {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.btn,
+.vc-section button,
+.custom-form button,
+.vc-section input[type=submit] {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.start-btn {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.page-subtitle {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.menu-button-text,
+.share-btn span {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.ns-text-logo {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.sliding-menu a {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.sliding-menu a:hover {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.current-menu-parent>a,
+.current-menu-item>a {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.header-contacts li,
+.contacts-btn {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.page-scroll-nav_wrap li a,
+.fixed-bottom-panel .gallery-filters a,
+.pagination a {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.half-hero-wrap h1,
+.hhw-vis.half-hero-wrap h1 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.half-hero-wrap h4 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.grid-carousel-title h3,
+.grid-carousel-title h3 a {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.grid-carousel-title h4 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.hhw_header {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.hero-decor-numb {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.hero-facts-wrap .inline-facts h6 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.hero-facts-wrap .num {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.hero_promo-title h4 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.hero_promo-title p {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.fixed-column-wrap_title h2 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.fixed-column-wrap_title p {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.scroll-notifer {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.contact-details-title h2 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.contact-details ul li span {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.contact-details ul li,
+.contact-details ul li a {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.blog-btn {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.blog-btn-filter ul li a {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.post-det h3,
+.post-det h3 a {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.post-header span,
+.post-header a {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.post-link {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.section-title h3 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.section-title p {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.inline-facts-wrap h6 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.inline-facts-wrap .num {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.team-info h3 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.team-info h4 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.team-box p {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.testimonilas-text h3 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.testimonilas-text p {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.custom-skillbar-title span {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.skill-bar-percent {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.piechart-holder h4 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.main-about h2 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.process-details h4 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.show-phdc span {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.pdcw_list li {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.srv-link-text h4 {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.accordion a.toggle {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.accordion-inner,
+.accordion-inner p {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.project-details ul li,
+.project-details ul:after {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.pr-subtitle {
+    font-family: Ubuntu;
+    font-display: swap;
+}
+
+.wpb_animate_when_almost_visible {
+    opacity: 1;
+}
+
